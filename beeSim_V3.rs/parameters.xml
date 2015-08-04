@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="secondsPerFrame" displayName="Seconds Per Frame" type="double" 
+						defaultValue="9.0"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="colonySize" displayName="Colony Size" type="int" 
+						defaultValue="300" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="hiveInitFood" displayName="Hive Starting Food" type="double" 
+						defaultValue="25000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="watchProbability" displayName="Probability of Following Dance" type="double" 
+						defaultValue="0.4" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="nectarDensity" displayName="Nectar Density (uL/m^2)" type="double" 
+						defaultValue="19.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="lowMetabolicRate" displayName="Low Activity Metabolic Rate" type="double" 
+						defaultValue="0.003" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="highMetabolicRate" displayName="High Activity Metabolic Rate" type="double" 
+						defaultValue="0.055" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="forageMotivationFactor" displayName="Forage Motivation Factor" type="double" 
+						defaultValue="25000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		</parameters>
+
+

@@ -1,0 +1,40 @@
+<repast.simphony.chart2.engine.TimeSeriesChartDescriptor>
+  <name>Hive Nectar Chart</name>
+  <dataSet>Hive Nectar Accumulation</dataSet>
+  <xAxisLabel>Tick Count</xAxisLabel>
+  <yAxisLabel>Hive Nectar</yAxisLabel>
+  <chartTitle>Hive Nectar Accumulation</chartTitle>
+  <type>TIME_SERIES</type>
+  <background>
+    <red>192</red>
+    <green>192</green>
+    <blue>192</blue>
+    <alpha>255</alpha>
+  </background>
+  <gridLineColor>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>255</alpha>
+  </gridLineColor>
+  <showGrid>true</showGrid>
+  <showLegend>true</showLegend>
+  <seriesIds>
+    <entry>
+      <string>Food</string>
+      <SeriesData>
+        <label></label>
+        <color>
+          <red>255</red>
+          <green>51</green>
+          <blue>51</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+  </seriesIds>
+  <dataValueIds>
+    <string>Food</string>
+  </dataValueIds>
+  <plotRangeLength>-1</plotRangeLength>
+</repast.simphony.chart2.engine.TimeSeriesChartDescriptor>

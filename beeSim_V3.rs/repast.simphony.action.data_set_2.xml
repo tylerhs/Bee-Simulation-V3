@@ -1,0 +1,85 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Bee State Counts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1232067320</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Dancing</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Dancing</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isDancing</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Following</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Following</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isFollowing</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Harvesting</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Harvesting</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isHarvesting</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Returning</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Returning</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isReturning</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Sleeping</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Sleeping</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isSleeping</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Targeting</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Targeting</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isTargeting</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Wandering</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Wandering</id>
+        <className>beeSim_V3.Bee</className>
+        <methodName>isWandering</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

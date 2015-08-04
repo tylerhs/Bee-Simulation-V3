@@ -1,0 +1,7 @@
+<context id="beeSim_V3" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+  	
+  	<projection id="grid" type="grid" />
+	<projection id="space" type="continuous space" />
+</context>
